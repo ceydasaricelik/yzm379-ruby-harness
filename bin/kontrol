@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'rbconfig'
+
+unless RUBY_VERSION.start_with?('3.4.')
+  abort "Ruby 3.4 gerekli (bulunan: #{RUBY_VERSION})."
+end
+
+Dir.chdir(File.expand_path('..', __dir__)) do
+  %w[lib/ogrenci.rb lib/devamsizlik_kontrol.rb test/ogrenci_test.rb].each do |path|
+    abort "Sözdizimi kontrolü başarısız (#{path})." unless system(RbConfig.ruby, '-c', path)
+  end
+
+  exec RbConfig.ruby, '-Ilib', 'test/ogrenci_test.rb'
+end

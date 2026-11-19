@@ -1,0 +1,23 @@
+[
+  "exec",
+  "--json",
+  "--color",
+  "never",
+  "--ignore-user-config",
+  "--ignore-rules",
+  "--skip-git-repo-check",
+  "--sandbox",
+  "workspace-write",
+  "-m",
+  "gpt-6.2-sol",
+  "-c",
+  "model_reasoning_effort=medium",
+  "-c",
+  "windows.sandbox=unelevated",
+  "-c",
+  "project_root_markers=[]",
+  "-c",
+  "projects.'C:\\Users\\huawei\\Desktop\\ruby\\odev6\\.runtime\\hook-proof'.trust_level=\"trusted\"",
+  "--dangerously-bypass-hook-trust",
+  "-"
+]

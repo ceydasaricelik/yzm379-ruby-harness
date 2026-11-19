@@ -1,0 +1,1 @@
+Run this isolated fixture check. Use two separate shell tool calls with successful command exits. First change only VALUE = 1 to VALUE = 2 in lib/ogrenci.rb, then in a separate call restore VALUE = 1. A failed validation after the first edit is expected. Make both file edits and leave all other files alone. Do not invoke tests, bin/kontrol, or any hook yourself.
