@@ -1,0 +1,16 @@
+[
+  "exec",
+  "--json",
+  "--color",
+  "never",
+  "--ignore-user-config",
+  "--ignore-rules",
+  "--skip-git-repo-check",
+  "--sandbox",
+  "workspace-write",
+  "-m",
+  "gpt-6.2-sol",
+  "-c",
+  "model_reasoning_effort=medium",
+  "-"
+]

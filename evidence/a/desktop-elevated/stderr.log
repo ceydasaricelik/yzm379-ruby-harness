@@ -1,0 +1,4 @@
+2026-11-19T22:41:09.157098Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-11-19T22:41:16.441155Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"Failed to create unified exec process: registered Core launch requires an installed app\")" }
+2026-11-19T22:41:22.451790Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"Failed to create unified exec process: registered Core launch requires an installed app\")" }
+2026-11-19T22:41:22.456360Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"Failed to create unified exec process: registered Core launch requires an installed app\")" }

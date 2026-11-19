@@ -1,0 +1,5 @@
+Coordinator assessment of the empty A snapshot
+Command: ruby -Ilib test/ogrenci_test.rb
+test/ogrenci_test.rb:2:in 'Kernel#require_relative': cannot load such file -- C:/Users/huawei/Desktop/ruby/odev6/.runtime/a-assessment/lib/ogrenci (LoadError)
+	from test/ogrenci_test.rb:2:in '<main>'
+Process exit code: 1

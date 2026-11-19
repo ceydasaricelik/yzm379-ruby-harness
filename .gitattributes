@@ -1,0 +1,4 @@
+* text=auto
+*.rb text eol=lf
+bin/kontrol text eol=lf
+evidence/** -text
