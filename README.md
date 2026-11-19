@@ -95,9 +95,12 @@ Denetim ayrıca temiz bir Windows klonunda kontrollü bir eşik hatasıyla günc
 
 A için arşivlenen kullanıcı mesajı tek cümledir ve başlatma ayarları proje kökü aramasını kapatır. Arşiv, modelin tüm sistem bağlamını ve deney anındaki global talimat dosyası envanterini içermez. A koda ulaşmadığı için eşik davranışı ve kod kalitesi doğrudan A/B karşılaştırmasına elverişli değildir. B'de test hatası oluşmadığı için B'nin testten sonra onarım yaptığına dair ölçüm yoktur. Kanca hata ve başarı denemeleri A/B sayılarının dışındadır.
 
+## Public GitHub yayını
+
+Yayın öncesinde izlenen dosyalar ve `main` geçmişi anahtar, token, parola ve kimlik bilgisi biçimleri için tarandı. Taramada eşleşme çıkmadı. Özgün deney kayıtları, Windows kullanıcı profili yolları ve oturum kimlikleri içerir. Bu metadata ortamın dizin yapısını ve hangi satırların aynı oturuma ait olduğunu gösterir. Kayıtlar arşiv doğrulaması için özgün hâliyle saklanır. [GitHub öncesi denetim](PRE_PUSH_AUDIT.md) · [Deney arşivinin bütünlük kontrolü](evidence/audit/archive-integrity.log)
+
 ## Yapamadıklarım
 
 - A oturumundan ilk kaynak kodu saklayamadım. Ajan kaynak dosya üretmedi. [A dosya envanteri](evidence/a/snapshot.json)
 - Oturum başına parasal tutar CLI çıktısında bulunmadığı için maliyet hesaplanmadı. Ölçüm dosyasında `cost` alanları `null` olarak kaydedildi. [Ölçümler](evidence/measurements.json)
 - `experiments/a` yerelde boş kaldı. Git boş dizinleri kaydetmediği için yeniden üretim amacıyla yeni klonda bu dizini boş olarak oluşturun. Codex dışındaki düzenlemeler doğrudan bir Codex araç olayı üretmez.
-- Public GitHub yayını bekliyor. [GitHub öncesi denetim](PRE_PUSH_AUDIT.md)
