@@ -21,8 +21,10 @@ function Read-Run {
     $tokensPath = Join-Path $directory 'token-usage.jsonl'
     $promptRecordPath = Join-Path $directory 'model-prompt.jsonl'
     $contextPath = Join-Path $directory 'run-context.json'
-    $rollout = Get-ChildItem -LiteralPath $SessionRoot -File -Recurse -Filter "*$id.jsonl" |
-        Select-Object -First 1
+    $rollout = if (Test-Path -LiteralPath $SessionRoot -PathType Container) {
+        Get-ChildItem -LiteralPath $SessionRoot -File -Recurse -Filter "*$id.jsonl" |
+            Select-Object -First 1
+    }
 
     if ($rollout) {
         $tokenLines = [Collections.Generic.List[string]]::new()

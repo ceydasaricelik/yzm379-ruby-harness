@@ -1,4 +1,2 @@
-* text=auto
-*.rb text eol=lf
-bin/kontrol text eol=lf
-evidence/** -text
+* text=auto eol=lf
+evidence/** -text !eol
