@@ -1,0 +1,32 @@
+{
+  "scanned_history_commits": 5,
+  "scanned_staged_tree": true,
+  "secret_pattern_matches": [],
+  "largest_staged_file": {
+    "bytes": 16505,
+    "path": "evidence/b/events.jsonl"
+  },
+  "files_with_windows_profile_paths": [
+    "evidence/a/assessment-inherited-gems.log",
+    "evidence/a/assessment.log",
+    "evidence/a/desktop-elevated/process.json",
+    "evidence/a/events.jsonl",
+    "evidence/a/initial/process.json",
+    "evidence/a/process.json",
+    "evidence/a/run-context.json",
+    "evidence/audit/hook/arguments.json",
+    "evidence/audit/hook/events.jsonl",
+    "evidence/audit/hook/process.json",
+    "evidence/audit/syntax-exit.log",
+    "evidence/b/arguments.json",
+    "evidence/b/events.jsonl",
+    "evidence/b/process.json",
+    "evidence/b/run-context.json",
+    "evidence/ratchet/hook/arguments.json",
+    "evidence/ratchet/hook/process.json",
+    "evidence/ratchet/hook/untrusted/arguments.json",
+    "evidence/ratchet/hook/untrusted/events.jsonl",
+    "evidence/ratchet/hook/untrusted/process.json",
+    "evidence/ratchet/symlink.log"
+  ]
+}

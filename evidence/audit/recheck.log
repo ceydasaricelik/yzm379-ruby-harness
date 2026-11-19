@@ -1,0 +1,32 @@
+PASS A exact prompt
+PASS A CLI turn, responses, and thread
+PASS A input_tokens=113116
+PASS A cached_input_tokens=102016
+PASS A cache_write_input_tokens=0
+PASS A output_tokens=350
+PASS A reasoning_output_tokens=0
+PASS A total=113466, cost unavailable
+PASS B exact prompt
+PASS B CLI turn, responses, and thread
+PASS B input_tokens=122174
+PASS B cached_input_tokens=109440
+PASS B cache_write_input_tokens=0
+PASS B output_tokens=846
+PASS B reasoning_output_tokens=0
+PASS B total=123020, cost unavailable
+PASS same A/B model, effort, permissions, and executable
+PASS A empty workspace observed, no file changes or resulting files
+PASS A final message requests missing attendance data
+PASS B started without lib and archived harness is byte-identical
+PASS B original application matches recorded hashes
+PASS B read the actual AGENTS.md contents
+PASS B initial automatic and both explicit checks succeeded with 8 tests / 61 assertions
+PASS diagnostic A attempts and hook demo excluded from A/B totals
+A/B difference: +9554 tokens (+8.42%)
+PASS Prism parsed lib/devamsizlik_kontrol.rb
+PASS Prism parsed lib/ogrenci.rb
+PASS lib only declares application types
+PASS Prism parsed experiments/b/lib/devamsizlik_kontrol.rb
+PASS Prism parsed experiments/b/lib/ogrenci.rb
+PASS experiments/b/lib only declares application types
+PASS runtime method lookup uses BasicObject fallback and Ogrenci predicates

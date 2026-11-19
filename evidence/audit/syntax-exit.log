@@ -1,0 +1,12 @@
+C:\Users\huawei\Desktop\ruby\odev6\.runtime\rubyinstaller-3.4.11-1-x64\bin\ruby.exe: lib/ogrenci.rb:29: syntax errors found (SyntaxError)
+  27 | end
+  28 | 
+> 29 | def
+     |    ^ expected an `end` to close the `def` statement
+     |    ^ unexpected end-of-input, assuming it is closing the parent top level context
+     |    ^ expected a delimiter to close the parameters
+     |    ^ unexpected end-of-input; expected a method name
+
+Sözdizimi kontrolü başarısız (lib/ogrenci.rb).
+syntax_exit=1
+Original SHA-256 restored. Clone working tree clean.

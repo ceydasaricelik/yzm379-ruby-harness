@@ -1,0 +1,45 @@
+7e9aa537d1e6a1762783f16f23ef490d6e9ad673
+ruby 3.4.11 (2026-09-23 revision 592f1ffdb3) +PRISM [x64-mingw-ucrt]
+3.4.11
+Run options: --seed 22524
+
+# Running:
+
+.........
+
+Finished in 0.002209s, 4074.6105 runs/s, 34407.8224 assertions/s.
+
+9 runs, 76 assertions, 0 failures, 0 errors, 0 skips
+Syntax OK
+Syntax OK
+Syntax OK
+Run options: --seed 21598
+
+# Running:
+
+.........
+
+Finished in 0.003470s, 2593.8094 runs/s, 21903.2790 assertions/s.
+
+9 runs, 76 assertions, 0 failures, 0 errors, 0 skips
+Syntax OK
+Syntax OK
+Syntax OK
+Run options: --seed 21506
+
+# Running:
+
+.........
+
+Finished in 0.002891s, 3113.2173 runs/s, 26289.3908 assertions/s.
+
+9 runs, 76 assertions, 0 failures, 0 errors, 0 skips
+
+LinkType : SymbolicLink
+Target   : AGENTS.md
+
+
+100644 0ce07b72f8090e0ed4679e61498d5e537754571e 0	.ruby-version
+120000 47dc3e3d863cfb5727b87d785d09abf9743c0a72 0	CLAUDE.md
+100755 ac2dd4946ab6dba8d7360e7a5e5ff26efecf2d44 0	bin/kontrol
+Working tree clean.

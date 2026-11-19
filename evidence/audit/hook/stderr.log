@@ -1,0 +1,31 @@
+2026-11-19T23:06:30.049131Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-11-19T23:06:55.715272Z ERROR codex_core::tools::router: error=Otomatik Ruby kontrolü başarısız (lib/devamsizlik_kontrol.rb).
+Syntax OK
+Syntax OK
+Syntax OK
+Run options: --seed 55285
+
+# Running:
+
+.F..F..F.
+
+Finished in 0.002270s, 3964.0591 runs/s, 22903.4525 assertions/s.
+
+  1) Failure:
+OgrenciTest#test_riskli_ve_kaldi_esiklerinin_tam_sinirlari [test/ogrenci_test.rb:66]:
+devamsızlık=3.
+Expected: true
+  Actual: false
+
+  2) Failure:
+OgrenciTest#test_aktif_olmayan_ogrencilerde_erken_uyari_verilmez [test/ogrenci_test.rb:75]:
+Expected: :riskli
+  Actual: :normal
+
+  3) Failure:
+OgrenciTest#test_uygulanan_kurallar_bagimsiz_ve_es_zamanli_degerlendirilir [test/ogrenci_test.rb:83]:
+Expected: [:riskli]
+  Actual: []
+
+9 runs, 52 assertions, 3 failures, 0 errors, 0 skips
+
