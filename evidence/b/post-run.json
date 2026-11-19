@@ -1,0 +1,13 @@
+{
+  "harness_unchanged": true,
+  "application_files": [
+    {
+      "path": "lib/devamsizlik_kontrol.rb",
+      "sha256": "4EA6F98C2BC46E1D297CDDE4F255379DE5C50D0A54365F8057808FC51747318C"
+    },
+    {
+      "path": "lib/ogrenci.rb",
+      "sha256": "32DF0AD42C7DB5C3D139B6886DA462098E3A5B7E447C0C84B4BBB7E039FFB5F0"
+    }
+  ]
+}

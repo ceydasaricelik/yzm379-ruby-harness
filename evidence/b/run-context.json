@@ -1,0 +1,12 @@
+{
+  "model": "gpt-6.2-sol",
+  "effort": "medium",
+  "cwd": "C:\\Users\\huawei\\Desktop\\ruby\\odev6\\experiments\\b",
+  "approval_policy": "never",
+  "sandbox_policy": {
+    "type": "workspace-write",
+    "network_access": false,
+    "exclude_tmpdir_env_var": false,
+    "exclude_slash_tmp": false
+  }
+}

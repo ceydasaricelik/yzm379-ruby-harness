@@ -1,0 +1,29 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "ruby .codex/hooks/kontrol.rb",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash|exec_command|apply_patch|Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "ruby .codex/hooks/kontrol.rb",
+            "timeout": 45,
+            "statusMessage": "Ruby doğrulaması çalışıyor"
+          }
+        ]
+      }
+    ]
+  }
+}

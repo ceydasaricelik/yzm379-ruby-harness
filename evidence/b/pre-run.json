@@ -1,0 +1,36 @@
+{
+  "recorded_utc": "2026-11-19T22:47:58.2838286+00:00",
+  "lib_exists": false,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "target": null,
+      "sha256": "9E677D04DF0659907EFC3DE17CDB292094443C9BF1898E6ACF967DF30248EE0F"
+    },
+    {
+      "path": "CLAUDE.md",
+      "target": "AGENTS.md",
+      "sha256": "9E677D04DF0659907EFC3DE17CDB292094443C9BF1898E6ACF967DF30248EE0F"
+    },
+    {
+      "path": ".codex\\hooks.json",
+      "target": null,
+      "sha256": "75C9AD5016914F93E3A8CD5DE6604C19BB9ABFEFC3B0CDC498445E8A80C2C958"
+    },
+    {
+      "path": ".codex\\hooks\\kontrol.rb",
+      "target": null,
+      "sha256": "31B0C421EB946844066D1DBC7A52D7A900653CEAC0240BF615409846BC303628"
+    },
+    {
+      "path": "bin\\kontrol",
+      "target": null,
+      "sha256": "F1C4F425916736C4D05669867C226D580E68CE13F3E5796542B84DE7FCC263AC"
+    },
+    {
+      "path": "test\\ogrenci_test.rb",
+      "target": null,
+      "sha256": "06F9355ED5362E20AFD133A57B361DBC40E683CA6A652CBEC3B170B7EE27A602"
+    }
+  ]
+}
