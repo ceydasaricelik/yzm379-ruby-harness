@@ -11,5 +11,8 @@ Dir.chdir(File.expand_path('..', __dir__)) do
     abort "Sözdizimi kontrolü başarısız (#{path})." unless system(RbConfig.ruby, '-c', path)
   end
 
-  exec RbConfig.ruby, '-Ilib', 'test/ogrenci_test.rb'
+  passed = system(RbConfig.ruby, '-Ilib', 'test/ogrenci_test.rb')
+  abort 'Minitest süreci başlatılamadı.' if passed.nil?
+
+  exit(passed ? 0 : 2)
 end

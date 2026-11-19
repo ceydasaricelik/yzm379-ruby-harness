@@ -77,6 +77,17 @@ class OgrenciTest < Minitest::Test
     end
   end
 
+  def test_uygulanan_kurallar_bagimsiz_ve_es_zamanli_degerlendirilir
+    %i[aktif donduruldu mezun].each do |durum|
+      assert_empty DevamsizlikKontrol.uygulanan_kurallar(yeni_ogrenci(1, durum))
+      assert_equal [:riskli], DevamsizlikKontrol.uygulanan_kurallar(yeni_ogrenci(3, durum))
+      assert_equal %i[riskli kaldi], DevamsizlikKontrol.uygulanan_kurallar(yeni_ogrenci(4, durum))
+    end
+
+    assert_equal [:erken_uyari], DevamsizlikKontrol.uygulanan_kurallar(yeni_ogrenci(2))
+    assert_empty DevamsizlikKontrol.uygulanan_kurallar(yeni_ogrenci(2, :mezun))
+  end
+
   private
 
   def yeni_ogrenci(devamsizlik, durum = :aktif)
